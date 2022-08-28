@@ -106,25 +106,7 @@ main{
     justify-content: center;
     align-items: flex-end;
 }
-#pageContent.home #pictInfo {
-    background-color: rgba(155,155,155,0.8);
-    padding: 40px;
-    color: var(--white);
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
-}
-#pageContent.home #pictInfo h1{
-    font-family: Cantarell, Arial, sans-serif;
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-#pageContent.home #pictInfo p{
-    margin: 10px 0;
-    font-size: .8em;
-}
+
 #pageContent.twoCols{
     display: grid;
     grid-gap: 20px;
@@ -132,7 +114,7 @@ main{
 #pageContent.blogList #leftCol{
     display: grid;
     grid-gap: 20px;
-    background-color: rgba(155,155,155,0.8);
+    background-color: red;
     padding: 20px;
 }
 #pageContent.blogList #leftCol article{
@@ -385,17 +367,7 @@ main{
     #mainHeader h1{
         font-size: 1.5em;
     }
-    #pageContent.contact form{
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-    }
-    #pageContent.contact form button{
-        padding: 10px;
-        background-color: var(--red);
-        color: var(--white);
-        border: none;
-        grid-column: 1 / -1
-    }
+ 
     #pageContent.text figure {
         max-width: 33%;
     }
