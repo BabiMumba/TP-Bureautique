@@ -78,16 +78,6 @@ img {
     color: var(--shaded-red);
 
 }
-#menuToggle{
-    background-color: transparent;
-    border: none;
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    align-self: start;
-    margin-left: auto;
-
-}
 #pageContent {
     padding: 100px 20px;
     min-height: 100vh;
@@ -196,73 +186,7 @@ main{
     color: var(--black);
     font-weight: bold;
 }
-#pageContent.text table thead, #pageContent.text table tfoot{
-    background-color: var(--red);
-}
-#pageContent.text table tbody tr:nth-child(even){
-    background-color: var(--shaded-red);
-}
-#pageContent.text table td, #pageContent.text table th{
-    border: 1px solid var(--white);
-    padding: 20px;
-}
-#pageContent.text table tfoot {
-    font-size: .8em;
-    font-style: italic;
-    text-align: center;
-}
 
-#pageContent.contact form{
-    display: grid;
-    border-top: solid 1px var(--white);
-}
-#pageContent.contact form > div > div {
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 20px 0;
-}
-#pageContent.contact form > div:last-child > div:first-child{
-    margin: 0 0 20px 0;
-}
-#pageContent.contact form label{
-    margin-bottom: 5px;
-    font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
-}
-#pageContent.contact form textarea {
-    height: 150px;
-    resize: none;
-}
-#pageContent.contact form button{
-    padding: 10px;
-    background-color: var(--red);
-    color: var(--white);
-    border: none;
-    margin-top: 30px;
-}
-#pageContent.contact form button:hover{
-    background-color: var(--shaded-red);
-}
-#pageContent.contact form button:active{
-    background-color: var(--red);
-}
-#pageContent.contact form .msg{
-    font-size: .8em;
-    color: rgb(88, 1, 1);
-    margin-left: 20px;
-}
-#pageContent.contact form input, #pageContent.contact form textarea{
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid rgb(162, 162, 255);
-}
-#pageContent.contact form input:valid, #pageContent.contact form textarea:valid {
-    border: 1px solid var(--green);
-}
-#pageContent.contact form input.invalid, #pageContent.contact form textarea.invalid {
-    border: 1px solid var(--red);
-}
 #pageContent.galleries ul{
     list-style-type: none;
     margin: 0;
@@ -275,14 +199,26 @@ main{
     border: 2px solid red;
 
 }
+#pageContent.page_babi main{
+    background-color: #7186FF;
+    width: 50%;
+    
+}
+#pageContent.page_babi h2{
+    text-align: center;
+    color: black;
+
+    
+}
 #pageContent.page_babi img{
-    border: 2px solid red;
+    border: 5px solid black;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    display: flex;
     
-
 }
+
 #pageContent.galleries ul li{
     background-color: var(--blue);
     padding: 10px;
