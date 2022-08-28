@@ -284,14 +284,15 @@ main{
 #pageContent.galleries ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    stroke: #C1272D;
+    stroke-width: 10%;
     display: grid;
     align-items: start;
     grid-auto-flow: row;
     grid-gap: 20px
 }
 #pageContent.galleries ul li{
-    background-color: var(--white);
+    background-color: var(--blue);
     padding: 10px;
 }
 #pageContent.galleries ul li:hover{
@@ -319,7 +320,7 @@ main{
     transition: opacity 1s, visibility 1s;
 }
 #pageContent.galleries #galleryContainer img{
-    border: solid 5px var(--white);
+    border: solid 5px var(--red);
     max-width: 80%;
     height: auto;
 }
