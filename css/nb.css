@@ -266,12 +266,22 @@ main{
 #pageContent.galleries ul{
     list-style-type: none;
     margin: 0;
-    stroke: #C1272D;
-    stroke-width: 10%;
     display: grid;
     align-items: start;
     grid-auto-flow: row;
     grid-gap: 20px
+}
+#pageContent.page_babi td,th,tr{
+    border: 2px solid red;
+
+}
+#pageContent.page_babi img{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+
 }
 #pageContent.galleries ul li{
     background-color: var(--blue);
@@ -285,31 +295,8 @@ main{
     text-decoration: none;
 }
 
-#pageContent.galleries #galleryContainer{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1s, visibility 1s;
-}
-#pageContent.galleries #galleryContainer img{
-    border: solid 5px var(--red);
-    max-width: 80%;
-    height: auto;
-}
-#pageContent.galleries #galleryContainer.visible {
-    opacity: 1;
-    visibility: visible;
-}
+
+
 #mainFooter{
     background-color: var(--red);
     height: 40px;
