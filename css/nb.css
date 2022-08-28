@@ -109,13 +109,13 @@ main{
 
 #pageContent.twoCols{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 #pageContent.blogList #leftCol{
-    display: grid;
-    grid-gap: 20px;
+    align-items: center;
     background-color: red;
     padding: 20px;
+
 }
 #pageContent.blogList #leftCol article{
     padding: 20px;
