@@ -197,7 +197,6 @@ main{
 }
 #pageContent.page_babi td,th,tr{
     border: 2px solid red;
-
 }
 #pageContent.page_babi main{
     background-color: #7186FF;
@@ -207,15 +206,22 @@ main{
 #pageContent.page_babi h2{
     text-align: center;
     color: black;
-
+}
+#pageContent.page_babi ul{
+    list-style-type: none;
+    margin: 0;
+    display: grid;
+    align-items: start;
+    grid-auto-flow: row;
+    grid-gap: 20px
     
 }
+
 #pageContent.page_babi img{
     border: 5px solid black;
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    display: flex;
     
 }
 
