@@ -104,16 +104,14 @@ main{
 #pageContent.blogList #leftCol{
     align-items: center;
     background-color: red;
-    padding: 20px;
+    padding:5px;
 
 }
 #pageContent.blogList #leftCol article{
     padding: 20px;
-    color: var(--black)
+    color: rgb(255, 255, 255)
 }
-#pageContent.blogList #leftCol article header{
-    border-bottom: 1px solid var(--black);
-}
+
 #pageContent.blogList #leftCol article header h1{
     margin: 0;
     color: var(--green);
@@ -122,47 +120,23 @@ main{
 #pageContent.blogList #leftCol article header p{
     font-size: .8em;
     font-style: italic;
+
 }
 #pageContent.blogList #leftCol article a{
-    color: var(--red);
-    text-decoration: none;
+    color: blue;
+
 }
 #pageContent.blogList #leftCol article a:hover{
     text-decoration: underline;
 }
 #pageContent.blogList #leftCol article:nth-child(even){
-    background-color: var(--shaded-red);
+    background-color: white
 }
 #pageContent.blogList #leftCol article:nth-child(odd){
     background-color: rgba(255,255,255,0.8);
 }
 
-#pageContent.text h1{
-    font-size: 1.8em;
-    color: var(--red);
-    letter-spacing: .1em;
-}
-#pageContent.text h2{
-    font-size: 1.5em;
-    font-weight: normal;
-    letter-spacing: .1em;
-    margin-top: 50px;
-}
-#pageContent.text img{
-    max-width: 100%;
-    height: auto;
-}
-#pageContent.text .alignLeft{
-    float: left;
-    margin: 0 10px 10px 0;
-}
-#pageContent.text .alignRight{
-    float: right;
-    margin: 0 0 10px 10px;
-}
-#pageContent.text h2 {
-    clear: both;
-}
+
 
 #pageContent.galleries ul{
     list-style-type: none;
@@ -171,35 +145,6 @@ main{
     align-items: start;
     grid-auto-flow: row;
     grid-gap: 20px
-}
-#pageContent.page_babi td,th,tr{
-    border: 2px solid red;
-}
-#pageContent.page_babi main{
-    background-color: #7186FF;
-    width: 50%;
-    
-}
-#pageContent.page_babi h2{
-    text-align: center;
-    color: black;
-}
-#pageContent.page_babi ul{
-    list-style-type: none;
-    margin: 0;
-    display: grid;
-    align-items: start;
-    grid-auto-flow: row;
-    grid-gap: 20px
-    
-}
-
-#pageContent.page_babi img{
-    border: 5px solid black;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    
 }
 
 #pageContent.galleries ul li{
@@ -213,8 +158,6 @@ main{
     color: var(--black);
     text-decoration: none;
 }
-
-
 
 #mainFooter{
     background-color: var(--red);
