@@ -163,29 +163,6 @@ main{
 #pageContent.text h2 {
     clear: both;
 }
-#pageContent.text dl {
-    border: 1px solid var(--black);
-    border-radius: 10px;
-    background-color: var(--white);
-    padding: 20px;
-    color: var(--black);
-}
-#pageContent.text dl dt {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-#pageContent.text dl dd {
-    margin: 10px 0 10px 20px;
-}
-#pageContent.text table {
-    border-collapse: collapse;
-    margin: 50px 0;
-}
-#pageContent.text table caption{
-    padding: 10px 20px;
-    color: var(--black);
-    font-weight: bold;
-}
 
 #pageContent.galleries ul{
     list-style-type: none;
